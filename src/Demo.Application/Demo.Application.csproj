@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Models\" />
+    <Folder Include="Common\Security\" />
+    <Folder Include="Common\Mappings\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Behaviours\" />
+    <Folder Include="Features\Categories\Commands\" />
+    <Folder Include="Features\Categories\Queries\" />
+    <Folder Include="Features\Products\Commands\" />
+    <Folder Include="Features\Products\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Domain\Demo.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
